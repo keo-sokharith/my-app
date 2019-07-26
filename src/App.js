@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import registerForm from './Register.form';
 
 
 class App extends Component {
@@ -10,9 +11,7 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <p className="App-intro">
-          
-        </p>
+          <registerForm/>
       </div>
     );
   }
